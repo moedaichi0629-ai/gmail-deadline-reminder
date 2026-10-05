@@ -1,0 +1,31 @@
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Google Apps Script (clasp) local settings
+.clasp.json
+.clasprc.json
+
+# Node.js
+node_modules/
+
+# AI agent local settings
+.claude/
+.codex/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
